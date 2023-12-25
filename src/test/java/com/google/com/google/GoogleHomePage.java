@@ -12,7 +12,7 @@ public class GoogleHomePage {
 	
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://www.google.com/");
-		driver.findElement(By.id("APjFqb")).sendKeys("Home");
+		driver.findElement(By.id("APjFqb")).sendKeys("Home depot");
 		driver.findElement(By.xpath("//*[contains(text(),'About')]")).click();
 		driver.quit();
 	
